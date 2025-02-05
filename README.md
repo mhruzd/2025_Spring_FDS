@@ -112,7 +112,7 @@ Advanced R Tools (week 6)
 Data Visualization (Week 7)
 
 * 2/17/24: General plotting principles; Ggplot2 (C600)
-* 2/19/24: More on ggplot; other advanced plotting tools (B554)
+* 2/19/24: More on ggplot; other advanced plotting tools (B554) - Last official class
 
 Final Project Presentations (Week 8)
 
