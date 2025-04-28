@@ -1,7 +1,7 @@
 ---
 title: "Homework 4"
 author: GSND 5345Q, Fundamentals of Data Science
-date: Due Wednesday, February 19th, 2025
+date: Due Wednesday, February 26th, 2025
 output: pdf_document
 ---
 
@@ -9,13 +9,17 @@ Now its time to practice what we have learned in class and learn even more! Note
 
 \subsection*{Data Structures (20 points)}
 
-1.\ (10 points) Learn more about the **scan**, **readLines**, **read\_html**, **readr**, and **readxl** functions for getting data into R. Use the data into a tibble using R.  How are these different from the functions we learned in class? Report what you find and give some examples!
+1.\ (10 points) Learn more about the **scan**, **readLines**, **read\_html**, **readr**, and **readxl** functions for getting data into R. Use these functions to read data from a files into a tibble using R. You can use your own data example or a dataset used in class.  How are these different from the functions we learned in class? Report what you find and give some examples!
 
 2.\	(10 points) Learn about the  **S3**,  **S4**, and  **R6** classes in R. When do you think you would use these? Describe what you learned and give some examples! 
 
-\subsection*{R Markdown (30 points)}
+\subsection*{R Markdown (30 points; +20 points extra credit)}
 
-1.\ (30 points) R markdown is a powerful tool for literate programming. To gain more practice, as part recreate the `.Rmd` file for the example file in the homework folder: “Rmarkdown_example.html.”
+1.\ (20 points EXTRA CREDIT) Complete the markdown tutorial at [https://www.markdowntutorial.com/](https://www.markdowntutorial.com/). Confirm here that you completed it (on your honor!). 
+
+2.\ (30 points) R markdown is a powerful tool for literate programming. To gain more practice, as part recreate the `.Rmd` file for the example file in the homework folder: “Rmarkdown_example.html.”
+
+
 
 \subsection*{Tidyverse (50 points; 2 points each)}
 
@@ -223,7 +227,7 @@ exp(mean(log(murders$population)))
 
 Write it using the pipe so that each function is called without arguments. Use the dot operator to access the population. Hint: The code should start with `murders %>%`.
     
-25\. Use the `map_df` to create a data frame with three columns named `n`, `s_n`, and `s_n_2`. The first column should contain the numbers 1 through 100. The second and third columns should each contain the sum of 1 through $n$ with $n$ the row number.  
+25\. (Extra credit) Use the `map_df` to create a data frame with three columns named `n`, `s_n`, and `s_n_2`. The first column should contain the numbers 1 through 100. The second and third columns should each contain the sum of 1 through $n$ and 1 through $n^2$ respectively, where $n$ the row number.  
 
 
 \subsection*{R Packages and Shiny (50 points)}
